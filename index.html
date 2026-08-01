@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Haripriya M A | Software Engineer</title>
 
 <link rel="stylesheet" href="style.css">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<nav>
-<div class="logo">Haripriya Manakkad Ajaighosh</div>
+<nav class="navbar">
 
-<ul>
+<div class="logo">Haripriya.</div>
+
+<ul class="nav-links">
+
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#experience">Experience</a></li>
 <li><a href="#contact">Contact</a></li>
+
 </ul>
+
 </nav>
 
 <section class="hero">
 
+<div class="blur"></div>
+
 <div class="hero-content">
 
-<h1>Hi,<h1> 
-<h1>I'm <span>Haripriya M A</span></h1>
+<img src="assets/profile.jpg" class="profile-img">
 
-<h2 style="text-align:left">Software Engineer specialized in C++</h2>
+<h1>Haripriya M A</h1>
+
+<div class="typing">
+<span id="typing"></span>
+</div>
 
 <p>
-Building high-performance enterprise software,
-medical imaging applications, and automation solutions.
+Software Engineer with 4+ years of experience developing
+high-performance enterprise software, medical imaging applications,
+and automation solutions.
 </p>
 
-<div class="buttons">
-<a href="Haripriya_Resume.pdf" class="btn">Download Resume</a>
+<div class="hero-buttons">
 
-<a href="mailto:haripriyaajai99@gmail.com" class="btn-outline">Contact Me</a>
+<a href="Haripriya_Resume.pdf" class="btn">
+Download Resume
+</a>
+
+<a href="#contact" class="btn-outline">
+Contact Me
+</a>
+
 </div>
 
-</div>
-
-<div class="hero-image">
-<img src="assets/profile.jpg" alt="Haripriya">
 </div>
 
 </section>
@@ -58,16 +72,20 @@ medical imaging applications, and automation solutions.
 
 <h2>About Me</h2>
 
+<div class="glass">
+
 <p>
-Software Engineer with 4+ years of experience developing
-enterprise-grade applications and medical imaging software.
 
-Experienced in C++, Python, multithreading, memory management,
-debugging, software architecture, and automation.
+I am a Software Engineer with experience in enterprise software
+development, C++, Python, multithreading, memory management,
+debugging, and automation.
 
-Currently based in Dubai and actively seeking Software Engineer
-and C++ Developer opportunities.
+Currently based in Dubai, UAE and actively seeking Software
+Engineer and C++ Developer opportunities.
+
 </p>
+
+</div>
 
 </section>
 
@@ -75,37 +93,36 @@ and C++ Developer opportunities.
 
 <h2>Skills</h2>
 
-<div class="skill-grid">
+<div class="skills-grid">
 
-<div class="card">
-<h3>Languages</h3>
-<p>C++, Python, Java, JavaScript, TypeScript, React, HTML and CSS</p>
-</div>
+<div class="glass">Systems Programming : 
+    C++(Linux, Windows), 
+    Java, 
+    STL, 
+    Multithreading, 
+    Memory Management, 
+    Design Patterns</div>
+<div class="glass">Quality Engineering :
+    Coverity, 
+    Valgrind, 
+    GTest</div>
+<div class="glass">Automation : 
+    Python, 
+    Shell Scripting, 
+    REST APIs</div>
+<div class="glass">DevOps & Collaboration : 
+    Docker, 
+    Git, 
+    GitHub, 
+    JIRA, 
+    Agile</div>
 
-<div class="card">
-<h3>Core Engineering</h3>
-<p>OOP, STL, Design Patterns, DSA</p>
-</div>
-
-<div class="card">
-<h3>Advanced</h3>
-<p>Multithreading, Memory Management</p>
-</div>
-
-<div class="card">
-<h3>Tools</h3>
-<p>Docker, Git, GitHub, Jira</p>
-</div>
-
-<div class="card">
-<h3>Quality</h3>
-<p>Unit Testing, Coverity, Valgrind, Debugging</p>
-</div>
-
-<div class="card">
-<h3>Practices</h3>
-<p>Agile, WaterFall, SDLC, Code Reviews</p>
-</div>
+<div class="glass">Web Development : 
+    JavaScript,
+    TypeScript, 
+    React, 
+    HTML, 
+    CSS</div>
 
 </div>
 
@@ -113,40 +130,54 @@ and C++ Developer opportunities.
 
 <section id="projects">
 
-<h2>Featured Projects</h2>
+<h2>Projects</h2>
 
 <div class="project-grid">
 
 <div class="project-card">
 
-<h3>StreamHub</h3>
+<h3>🚀 StreamHub</h3>
 
 <p>
-High-performance C++ streaming framework
-designed for binary data transfer using
-memory pooling and asynchronous chunk transfer.
+High-throughput producer-consumer streaming framework
+built in C++ for enterprise medical imaging systems.
+Features:
+• Async chunk transfer
+• Memory pooling
+• Zero malloc/free overhead
+• High-volume binary streaming
 </p>
 
 </div>
 
 <div class="project-card">
 
-<h3>MRI Scanner Software</h3>
+<h3>🏥 MRI Scanner Software</h3>
 
 <p>
-Developed software modules for Canon Medical Systems MRI platforms,
-supporting critical diagnostic hardware.
+Developed and tested software for Canon Medical Systems MRI platforms.
+
+Worked across:
+
+• Requirements Analysis
+• Design
+• Development
+• Testing
+• Production Support
+
+Supporting mission-critical diagnostic hardware
+used in clinical environments globally.
 </p>
 
 </div>
 
 <div class="project-card">
 
-<h3>Python Automation</h3>
+<h3>⚡ Python Automation</h3>
 
 <p>
-Built automation utilities and testing tools that reduced manual
-verification efforts.
+Created automation tools reducing manual
+testing and verification effort.
 </p>
 
 </div>
@@ -163,20 +194,38 @@ verification efforts.
 
 <div class="timeline-item">
 <h3>Software Engineer</h3>
-<h4> Trenser Technology Solutions (P) Ltd </h4>
-<p>2025 - 2026</p>
+<p>Trenser Technology Solutions (P) Ltd</p>
+<span>2025 - 2026</span>
 </div>
 
 <div class="timeline-item">
 <h3>Software Engineer</h3>
-<h4> Quest Global Engineering Services Pvt. Ltd.</h4>
-<p>2022 - 2025</p>
+<p>Quest Global Engineering Services Private Limited</p>
+<span>2022 - 2025</span>
 </div>
 
 <div class="timeline-item">
 <h3>IT Support Engineer</h3>
-<h4>Infox Technologies</h4>
-<p>2021 - 2022</p>
+<p>InfoxTechnologies</p>
+<span>2021 - 2022</span>
+</div>
+
+</div>
+
+</section>
+
+<section id="achievements">
+
+<h2>Achievements</h2>
+
+<div class="skills-grid">
+
+<div class="glass">
+🏆 On The Fly Award – May 2023 - From Quest Global Engineering Services Private Limited
+</div>
+
+<div class="glass">
+🏆 On The Fly Award – Dec 2024 - From Quest Global Engineering Services Private Limited
 </div>
 
 </div>
@@ -185,26 +234,27 @@ verification efforts.
 
 <section id="contact">
 
-<h2>Let's Connect</h2>
+<h2>Contact</h2>
+
+<div class="contact-box">
+
+<p>📧 haripriyaajai99@gmail.com</p>
+
+<p>📍 Dubai, UAE</p>
 
 <p>
-Open to Software Engineer, C++ Developer,
-Backend Developer, and Technical Associate opportunities.
-</p>
-
-<div class="contact-links">
-
-<a href="mailto:haripriyaajai99@gmail.com">
-Email
-</a>
-
+💼
 <a href="https://www.linkedin.com/in/haripriya-m-a-4b9a151b2/" target="_blank">
 LinkedIn
 </a>
+</p>
 
+<p>
+💻
 <a href="https://github.com/CodeWithHaripriya" target="_blank">
 GitHub
 </a>
+</p>
 
 </div>
 
@@ -212,9 +262,7 @@ GitHub
 
 <footer>
 
-<p>
-© 2026 Haripriya M A | Software Engineer
-</p>
+<p>© 2026 Haripriya M A</p>
 
 </footer>
 
